@@ -1,0 +1,46 @@
+{
+  "frontend_home_questionnaire": {
+    "description":
+      "Tasks will be evaluated on code quality and visual aesthetics. Script should be built with only HTML, JS (vanilla or framework), and CSS.",
+    "tasks": [
+      {
+        "taskName": "Display the Tasks",
+        "taskType": "scripting",
+        "description":
+          "Display the tasks in this JSON as a carousel. The script should allow flipping forward and back between tasks.",
+        "id": 1
+      },
+      {
+        "taskName": "Countries and Cities",
+        "taskType": "scripting",
+        "description":
+          "Build a script to display all existing countries as headings (the Country field) and under each country, display all the cities in that country (the City field).",
+        "associatedFile": "http://northwind.servicestack.net/customers.json",
+        "id": 2
+      },
+      {
+        "taskName": "Identify a piece of code",
+        "taskType": "knowledge",
+        "description": "What is this?",
+        "associatedFile": "https://pastebin.com/f7YNshwb",
+        "id": 3
+      },
+      {
+        "taskName": "Identify a piece of code",
+        "taskType": "knowledge",
+        "description": "What is this?",
+        "associatedFile": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/",
+        "id": 4
+      },
+      {
+        "taskName": "UI/UX",
+        "taskType": "knowledge",
+        "description":
+          "Please go over the following design, and provide your insights regarding the interface (no more than 4-5 points).",
+        "associatedFile":
+          "http://nihongo-e-na.com/archives/006/201206/large-4fe806d39a5fc.png",
+        "id": 5
+      }
+    ]
+  }
+}
